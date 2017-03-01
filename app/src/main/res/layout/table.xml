@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/table"
+    android:layout_below="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="@dimen/activity_bottom_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_top_margin"
+    android:stretchColumns="*">
+
+    <TableRow
+        android:id="@+id/header_row"
+        android:layout_width="match_parent">
+
+        <TextView
+            android:id="@+id/player_label"
+            android:layout_height="@dimen/cell_height"
+            android:layout_width="@dimen/cell_width"
+            android:text="@string/name" />
+
+        <include layout="@layout/header_cell"
+            android:id="@+id/apple_label" />
+
+        <include layout="@layout/header_cell"
+            android:id="@+id/bread_label" />
+
+        <include layout="@layout/header_cell"
+            android:id="@+id/cheese_label" />
+
+        <include layout="@layout/header_cell"
+            android:id="@+id/chicken_label" />
+
+        <include layout="@layout/header_cell"
+            android:id="@+id/spice_label" />
+
+        <include layout="@layout/header_cell"
+            android:id="@+id/mead_label" />
+
+        <include layout="@layout/header_cell"
+            android:id="@+id/silk_label" />
+
+        <include layout="@layout/header_cell"
+            android:id="@+id/crossbow_label" />
+
+        <include layout="@layout/header_cell"
+            android:id="@+id/cash_label" />
+    </TableRow>
+
+    <include layout="@layout/player_row"
+        android:id="@+id/player_one" />
+
+    <include layout="@layout/player_row"
+        android:id="@+id/player_two" />
+
+    <include layout="@layout/player_row"
+        android:id="@+id/player_three" />
+
+    <include layout="@layout/player_row"
+        android:id="@+id/player_four" />
+
+    <include layout="@layout/player_row"
+        android:id="@+id/player_five" />
+</TableLayout>

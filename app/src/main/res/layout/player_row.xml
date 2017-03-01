@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/player_row">
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:inputType="textPersonName" />
+
+    <include layout="@layout/player_cell"
+        android:id="@+id/apples" />
+
+    <include layout="@layout/player_cell"
+        android:id="@+id/bread" />
+
+    <include layout="@layout/player_cell"
+        android:id="@+id/cheese" />
+
+    <include layout="@layout/player_cell"
+        android:id="@+id/chicken" />
+
+    <include layout="@layout/player_cell"
+        android:id="@+id/spice" />
+
+    <include layout="@layout/player_cell"
+        android:id="@+id/mead" />
+
+    <include layout="@layout/player_cell"
+        android:id="@+id/silk" />
+
+    <include layout="@layout/player_cell"
+        android:id="@+id/crossbow" />
+
+    <include layout="@layout/player_cell"
+        android:id="@+id/cash" />
+
+</TableRow>

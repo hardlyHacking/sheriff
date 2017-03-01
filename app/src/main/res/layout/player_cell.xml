@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<EditText xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/player_cell"
+    android:inputType="number"
+    android:layout_height="@dimen/cell_height"
+    android:layout_width="@dimen/cell_width"
+    android:maxLength="2" />

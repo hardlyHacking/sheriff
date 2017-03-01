@@ -1,0 +1,16 @@
+<resources>
+    <string name="action_calculate">Calculate</string>
+    <string name="app_name">SoN Calculator</string>
+    <string name="apples">🍎</string>
+    <string name="bread">🍞</string>
+    <string name="cash">💷</string>
+    <string name="cheese">🧀</string>
+    <string name="chicken">🐔</string>
+    <string name="contraband">Contraband</string>
+    <string name="crossbow">🏹</string>
+    <string name="mead">🍺</string>
+    <string name="name">Name</string>
+    <string name="player">Player</string>
+    <string name="silk">🎀</string>
+    <string name="spice">🌶️</string>
+</resources>
